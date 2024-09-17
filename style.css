@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: hsl(217, 19%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main{
+    position: relative;
+    margin: 250px auto;
+    background: hsl(218, 23%, 16%);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 520px;
+    text-align: center;
+    
+}
+
+.main span{
+    color: hsl(150, 100%, 66%);
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.quote{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin-top: 8px;
+    color: hsl(193, 38%, 86%);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dice{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background: hsl(150, 100%, 66%);
+    padding: 10px;
+    bottom: 30%;
+    display: flex;
+    align-items: center;
+    left: 48.5%;
+    border-radius: 50%;
+    cursor: pointer;
+  
+}
+
+.sepration{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
